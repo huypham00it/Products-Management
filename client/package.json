@@ -42,7 +42,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://testappbm.herokuapp.com",
+  "proxy": "https://bmta.herokuapp.com/",
   "devDependencies": {
     "react-scripts": "^5.0.1"
   }
