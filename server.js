@@ -30,6 +30,7 @@ const app = express();
 app.use(cors());
 app.use(helmet({
     crossOriginEmbedderPolicy: false,
+    contentSecurityPolicy: false
 }));
 app.use(mongoSanitize());
 app.use(xss());
